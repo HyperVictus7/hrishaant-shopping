@@ -1,0 +1,43 @@
+<html>
+<head>
+<title>hrishaant shopping.com</title>
+</head>
+<body>
+<h4>Please provide the flowing information:</h4>
+<form type="post" action="mailto:hrishaantcandade11@gmailcom">
+<p>First Name:<input type="text" name="urname" size="25" maxlength="30">
+<p>Last Name:<input type="text" name="urname" size="25" maxlength="30">
+<br>
+<br>
+<p>Address:<input type="text" name="address" size="25" maxlength="60">
+<p>City:<input type="text" name="city" size="25" maxlength="30">
+<p>Pin code:<input type="text" name="zip" size="25" maxlength="6">
+<br>
+<br>
+<p>Phone Number:+91<input type="text" name="" size="25" maxlength="10">
+<br>
+<br>
+<p>Credit Card Number:<input type="password" name="credit card" size="25" maxlength="16">
+<br>
+<br>
+<h4>Please choose which items to order:</h4>
+<input type="checkbox" name="item" value="horse riding shoes">Horse Riding Shoes
+<br>
+<input type="checkbox" name="item" value="saddle">Saddle
+<br>
+<input type="checkbox" name="item" value="stirrups">Stirrups
+<br>
+<input type="checkbox" name="item" value="briddle">Briddle
+<br>
+<br>
+<h4>Please choose your payment method:</h4>
+<input type="radio" name="payment" value="cash on delivery">Cash On Delivery
+<input type="radio" name="payment" value="online payment">Online Payment
+<br>
+<br>
+<h4>Instructions for delivery agent</h4>
+<textarea name="instructions for delivery agent" rows="10" cols="50" wrap>
+</textarea>
+</form>
+</body>
+</html>
